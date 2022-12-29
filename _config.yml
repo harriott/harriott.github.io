@@ -26,8 +26,6 @@ github_username:  harriott
 plugins:
   # - jekyll-feed
   - jekyll-remote-theme
-remote_theme: jekyll/minima
-# theme: minima  # uses the standard gem
 
 # Exclude from processing.
 # ------------------------
@@ -48,6 +46,12 @@ remote_theme: jekyll/minima
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# theme - JH
+# ----------
+# latest version
 minima:
-  skin: dark  # having no effect
+  skin: dark
+remote_theme: jekyll/minima
+
+# theme: minima  # uses the standard gem, infrequently updated
 
