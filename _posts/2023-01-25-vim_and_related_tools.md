@@ -1,4 +1,4 @@
-2023-01-25-vim_and_related_tools
+
 ---
 layout: post
 title:  "vim and related tools"
