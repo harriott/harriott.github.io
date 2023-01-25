@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title:  "vim and related tools"
+title: "vim and related tools"
 categories: Dropbox LaTeX markdown vim
 
 ---
