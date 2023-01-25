@@ -2,7 +2,6 @@
 layout: post
 title: "vim and related tools"
 categories: Dropbox LaTeX markdown vim
-
 ---
 
 For better or worse, learning `vim` totally transformed my use of IT and allowed me to geek-out to my heart's desire. `vim` has become central to my daily life. I now keep all my personal and work notes in some kind of text file - `markdown` for worldly stuff, `Dokuwiki` for my IT notes - and I use `LaTeX` for letters and nicely formatted output. I regularly convert all of my `markdown` notes to `PDF`, and they get sync'd up to my `Dropbox` and then down onto my Android phones by the `Dropysnc` app where the `PDF` format is much easier to navigate in.
