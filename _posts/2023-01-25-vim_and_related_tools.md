@@ -16,3 +16,5 @@ Another life-changing functionality is code folding, which I use all over `vim` 
 
 The end result is I can whizz around my notes and my code, sometimes jumping over to terminal then back into `vim`, all with incredible ease and speed. But there's a catch. I can only recommend this if you really like coding. Personally of course, I enjoy tweaking my `vim` configuration whenever I find myself repeatedly doing something that could be automated. Sometimes it takes hours, and I need to keep good notes to be able to recall my coded task shortcuts, but, as I say, I enjoy it, like playing a good game of chess.
 
+My `vim` configuration is here: [vimfiles](https://github.com/harriott/vimfiles).
+
