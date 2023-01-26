@@ -1,12 +1,30 @@
+<!-- vim: sw=2:
+  adapted from  $GHrUse/CP/Jekyll-jekyll-minima/_includes/footer.html
+  -->
+
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
+
+	  <div class="footer-col">
+		{% if site.author.name -%}
+		  <p> {{ site.author.name | escape }}</p>
+		{% endif -%}
+	  </div>
+
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
       </div>
+
+	  <div class="footer-col">
+		{% if site.author.email -%}
+		  <p> {{ site.author.email | escape }}</p>
+		{%- endif %}
+	  </div>
+
     </div>
 
     <div class="social-links">
