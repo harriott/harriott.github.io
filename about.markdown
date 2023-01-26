@@ -10,3 +10,5 @@ I love Arch Linux, Bash, Vim, LaTeX, Python, FFmpeg, ImageMagick and in general 
 
 I also keep up with PowerShell on my Windows Pro laptop, and I use Markdown, Dokuwiki, and Pandoc daily.
 
+<a href="https://stackexchange.com/users/3063675"><img src="https://stackexchange.com/users/flair/3063675.png" width="208" height="58" alt="profile for joharr on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for joharr on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+
