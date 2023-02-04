@@ -1,6 +1,7 @@
 ---
+description: "how vim makes everything better"
 layout: post
-categories: Dropbox LaTeX markdown vim
+tags: Dropbox LaTeX markdown vim
 title: "vim and related tools"
 ---
 

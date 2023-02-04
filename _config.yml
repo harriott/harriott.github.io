@@ -24,6 +24,7 @@ github_username:  harriott
 plugins:
   # - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # ------------------------
@@ -56,4 +57,6 @@ minima:
 remote_theme: jekyll/minima
 
 # theme: minima  # uses the standard gem, infrequently updated
+
+logo: /assets/c6o-Skype2Frame40.png
 
