@@ -1,6 +1,5 @@
 ---
-description: "how vim makes everything better"
-layout: post
+description: "A quick description of how my productivity was boosted by learning vim."
 tags: Dropbox LaTeX markdown vim
 title: "vim and related tools"
 ---

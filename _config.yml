@@ -1,53 +1,50 @@
 
-# This config file is meant for settings that affect your whole blog, values which you are expected to set up once and rarely edit after that. If you find yourself editing this file very often, consider using Jekyll's data files feature for the data you need to update frequently.
-# For technical reasons, this file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-# If you need help with YAML syntax, here are some quick references for you:
-#  https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-#  https://learnxinyminutes.com/docs/yaml/
-# Site settings: These are used to personalize your new site. If you look in the HTML files, you will see them accessed via {{ site.title }}, {{ site.email }}, and so on. You can create any custom variable you would like, and they will be accessible in the templates via {{ site.myvariable }}.
+# $JHw/IT-Jekyll-harriott/_config.yml - if changed,  bundle exec jekyll s
+# see  $GHrUse/CP/Jekyll/jekyll-jekyll/lib/site_template/_config.yml
 
+#=> 0 site description
 title: Joseph's IT thoughts
 author:
   name: Joseph Harriott
   email: trohib_at_gmail_com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-  # (= ignore newlines until next descriptor)
   geekology
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""  # the subpath of your site, e.g. /blog
 url: harriott.github.io
 twitter_username: joharrio
-github_username:  harriott
+github_username: harriott
 
-# show_excerpts: true  # before calling minima
+#=> 1 build settings
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
 
-# Build settings
-# --------------
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+
+include: [_pages]
+
 plugins:
   # - jekyll-feed
   - jekyll-remote-theme
   - jekyll-seo-tag
 
-# Exclude from processing.
-# ------------------------
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#=> 2 theme
+logo: /assets/c6o-Skype2Frame40-square.png
+# show_excerpts: true  # before calling minima
 
-# theme - JH
-# ----------
-# latest version
+#==> minima
+# gem, infrequently updated
+# theme: minima
+
+# remote (= latest) version
 minima:
   social_links:  # in footer
     - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/2595845/joharr" }
@@ -55,8 +52,4 @@ minima:
     - { platform: twitter, user_url: "https://twitter.com/joharrio" }
   skin: dark
 remote_theme: jekyll/minima
-
-# theme: minima  # uses the standard gem, infrequently updated
-
-logo: /assets/c6o-Skype2Frame40.png
 
