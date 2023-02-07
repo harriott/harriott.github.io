@@ -7,12 +7,19 @@ title: Joseph's IT thoughts
 author:
   name: Joseph Harriott
   email: trohib_at_gmail_com
+  image: assets/c6o-Skype2Frame40-square.png
 description: >-  # (= ignore newlines until next descriptor)
   geekology
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: harriott.github.io
+timezone: Europe/Paris
 twitter_username: joharrio
 github_username: harriott
+
+#==> permalinks
+# https://harriott.github.io/2023/01/25/vim_and_related_tools.html
+# permalink: /:slug/  # https://harriott.github.io/vim-and-related-tools.html
+permalink: /:title/  # https://harriott.github.io/vim_and_related_tools.html
 
 #=> 1 build settings
 defaults:
@@ -33,6 +40,7 @@ include: [_pages]
 
 plugins:
   # - jekyll-feed
+  - jekyll-include-cache
   - jekyll-remote-theme
   - jekyll-seo-tag
 
@@ -52,4 +60,7 @@ minima:
     - { platform: twitter, user_url: "https://twitter.com/joharrio" }
   skin: dark
 remote_theme: jekyll/minima
+
+# #==> Minimal Mistakes
+# remote_theme: mmistakes/minimal-mistakes@4.24.0
 
