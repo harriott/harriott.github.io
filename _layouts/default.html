@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- vim: se sw=2: -->
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+  {% comment %} $GHrUse/CP/Jekyll/Jekyll-jekyll-minima/_includes/head.html {% endcomment %}
+
+  {% include cookie-consent.html %}
+  {% comment %} - should probably be before analytics {% endcomment %}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
