@@ -28,5 +28,3 @@ The end result is I can whizz around my notes and my code, sometimes jumping ove
 
 My `vim` configuration is here: [vimfiles](https://github.com/harriott/vimfiles).
 
-Code for this Jekyll post: [2023-01-25-vim_and_related_tools.md](https://github.com/harriott/harriott.github.io/blob/main/_posts/2023-01-25-vim_and_related_tools.md).
-

@@ -1,8 +1,9 @@
 
-# $JHw/IT-Jekyll-harriott/_config.yml - if changed,  bundle exec jekyll s
+# $JHw/IT-Jekyll-harriott-minima/_config.yml - if changed,  bundle exec jekyll s
 # see  $GHrUse/CP/Jekyll/jekyll-jekyll/lib/site_template/_config.yml
 
 #=> 0 site description
+
 title: Joseph's IT thoughts
 author:
   name: Joseph Harriott
@@ -16,10 +17,10 @@ timezone: Europe/Paris
 twitter_username: joharrio
 github_username: harriott
 
-#==> permalinks
-# https://harriott.github.io/2023/01/25/vim_and_related_tools.html
-# permalink: /:slug/  # https://harriott.github.io/vim-and-related-tools.html
-permalink: /:title/  # https://harriott.github.io/vim_and_related_tools.html
+# #==> permalinks
+# # https://harriott.github.io/2023/01/25/vim_and_related_tools.html
+# # permalink: /:slug/  # https://harriott.github.io/vim-and-related-tools.html
+# permalink: /:title/  # https://harriott.github.io/vim_and_related_tools.html
 
 #=> 1 build settings
 defaults:
