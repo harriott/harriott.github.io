@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 layout: post
-tags: Dropbox RoboCopy rsync vim
+tags: Dropbox RoboCopy rsync Vim
 title: "managing drive contents"
 ---
 
@@ -33,4 +33,7 @@ With a load of backup disks sitting in a pile on a shelf, I need to have some so
     1. Those compact directory listings are only truly compact when used in conjunction with my `Vim` setup - here's an example (all folded up in `Vim`) from my biggest backup drive:
 
 ![WD30EZRZ](/assets/2023-02-04-managing_drive_contents/WD30EZRZ.jpg)
+
+---
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 

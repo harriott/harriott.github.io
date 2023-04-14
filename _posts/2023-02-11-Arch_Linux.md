@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 layout: post
-tags: Arch Bash Linux vim
+tags: Arch Bash Linux Vim
 title: "Arch Linux"
 ---
 
@@ -28,4 +28,7 @@ I could install `Linux Mint` with a useable desktop environment in an hour or tw
 Apart from buying into Apple's walled garden, as all my non-techy artist friends do for good reason, I can't see how I could get any better OS than what I have with my minimalist CLI-heavy `Arch` installs.
 
 My `Arch Linux` installation notes are here [OS-ArchBuilds](https://github.com/harriott/OS-ArchBuilds).
+
+---
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 

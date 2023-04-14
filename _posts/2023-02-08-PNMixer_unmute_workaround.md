@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 layout: post
-tags: Dropbox vim
+tags: Dropbox Vim
 title: "PNMixer unmute workaround"
 ---
 
@@ -30,4 +30,6 @@ On `Arch`, [libpulse](https://archlinux.org/packages/extra/x86_64/libpulse/) pro
 
 So my workaround is [awesome / audio](https://github.com/harriott/OS-ArchBuilds/tree/master/AsusW202/jo/awesome/audio) which I symlink to `~/.config/awesome/audio/`, and then my [rc.lua](https://github.com/harriott/OS-ArchBuilds/blob/master/AsusW202/jo/awesome/rc.lua) configures `XF86AudioMute`, `XF86AudioLowerVolume`, and `XF86AudioRaiseVolume` (the keyboard's volume keystrokes) to access the little `Bash` scripts therein.
 
+---
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 

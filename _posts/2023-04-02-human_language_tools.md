@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 layout: post
-tags: Arch Bash Linux vim
+tags: Arch Bash Linux Vim
 title: "human language tools"
 ---
 
@@ -60,4 +60,7 @@ vim: se spl=fr: \aa toggles ALE, \lt for LangTool
 So words that aren't in `.vim/spell/fr.utf-8.spl` (or associated files) get highlit, but I can get some grammar help with the power of `languagetool-commandline.jar`: `\lt` calls up [vim-langtool](https://github.com/Konfekt/vim-langtool), which takes a while to create location list of suggested corrections so I prefer `\aa` to fire up [ALE](https://github.com/dense-analysis/ale) (the "Asynchronous Lint Engine").
 
 I needed time to figure out how to configure `LanguageTool` to be usefully accessible in flavours of `Vim` in both my `Arch linux` boxes and my `Win10Pro` laptop, but it was well worth it!
+
+---
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 

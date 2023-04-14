@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=1:
 layout: post
-tags: Bash PowerShell vim
+tags: Bash PowerShell Vim
 title: "vim configurations"
 ---
 
@@ -22,4 +22,7 @@ If you want to learn `Vim` go search, it's all available online - so many excell
 If you're thinking of trying `Vim` - if you're patient, and willing to learn, you'll be richly rewarded.
 
 My `vim` configuration is here: [vimfiles](https://github.com/harriott/vimfiles).
+
+---
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
