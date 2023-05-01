@@ -54,9 +54,9 @@ Off-tick Thunderbird's default setting of `Copies & Folders > [ When sending mes
 #### syncing my Profile with Dropbox
 On my `Arch linux` machines:
 ```bash
-$ export Drpbx=<location_of_my_Dropbox_directory>
-$ export T91=$Drpbx/JH/T91-default-release  " where I'd like my Thunderbird v91 profile to be
-$ sed -i "/Name=default-release/,/^$/ { s/IsRelative=1/IsRelative=0/; s:Path=.*:Path=$T91: }" ~/.thunderbird/profiles.ini
+export Drpbx='<location_of_my_Dropbox_directory>'
+export T91="$Drpbx/JH/T91-default-release"  # where I'd like my Thunderbird v91 profile to be
+sed -i "/Name=default-release/,/^$/ { s/IsRelative=1/IsRelative=0/; s:Path=.*:Path=$T91: }" ~/.thunderbird/profiles.ini
 ```
 
 On my `Windows 10 Pro` laptop, I run `Thunderbird v91` once, empty `C:\Users\troin\AppData\Roaming\Thunderbird\Profiles\57isrjsc.default-release`, then edit `C:\Users\troin\AppData\Roaming\Thunderbird\profiles.ini`:
@@ -80,11 +80,27 @@ I went down this rabbit hole, which pleased my inner geek, but it ain't for ever
 When you start out you'll be clueless. `mutt` is useless until it's configured. You really have to decide for yourself how you want to do that. Here are some clues:
 
 - [OS-ArchBuilds/jo/clm/neomutt/muttrc-accounts-all](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/clm/neomutt/muttrc-accounts-all) - an entry point into my [NeoMutt](https://neomutt.org/) configuration
-- [OS-ArchBuilds/jo/Bash/bashrc-clm](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-clm) - my Bash commands for `mbsync` (see [isync: free IMAP and MailDir mailbox synchronizer](http://isync.sourceforge.net)), `neomutt`, and `notmuch` (see [Getting Started with Notmuch](https://notmuchmail.org/getting-started/)).
+- [OS-ArchBuilds/jo/Bash/bashrc-clm](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-clm) - my `Bash` commands for using
+    - `mbsync` (see [isync: free IMAP and MailDir mailbox synchronizer](http://isync.sourceforge.net))
+        - in my [mbsyncrc-template](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/clm/mbsyncrc-template) you'll see that I use `pass` (see [Pass (software)](https://en.wikipedia.org/wiki/Pass_%28software%29)), for which you might want to look over my [GnuPG - short primer]({% post_url /2023-04-14-GnuPG-short_primer %})
+    - `neomutt`, the evolved `mutt`
+    - `notmuch` (see [Getting Started with Notmuch](https://notmuchmail.org/getting-started/)).
 
 With this setup I can sync all of my emails from their servers, move them around, sync them again back to the servers, and do powerful regex searches across all of my email accounts.
 
-I can even send text-only emails for my non-Gmail accounts - see [About msmtp](https://marlam.de/msmtp/).
+### providing account password to mybsync
+```bash
+pass init '<email_associated_with_my_GnuPG_key>'  # sets up ~/.password-store
+pass insert <location> # (in ~/.password-store/), then type in your password
+```
+{% highlight bash %}
+pass init '<email_associated_with_my_GnuPG_key>'  # sets up ~/.password-store
+pass insert <location> # (in ~/.password-store/), then type in your password
+{% endhighlight %}
+Then, when `mbysnc` is configured to access your email account's password with `pass`, you'll give your `GnuPG` authentification - I use [pinentry](https://gnupg.org/related_software/pinentry/0) configured to be needed just once per login.
+
+### sending emails
+I can send text-only emails for my non-Gmail accounts - see [About msmtp](https://marlam.de/msmtp/).
 
 I did transcribe some handy code that allowed met to send Gmails ([OS-ArchBuilds/jo/clm/msmtprc/oauth2tool.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/clm/msmtprc/oauth2tool.sh)), but then Google decided to stop OAuth out-of-band flow, which effectively excluded `msmtp` from sending Gmails...
 

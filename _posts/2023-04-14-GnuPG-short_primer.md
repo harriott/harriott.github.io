@@ -30,7 +30,7 @@ And the `Arch Linux` manual [GPG(1)](https://man.archlinux.org/man/gpg.1.en) fil
 ## get going
 I say first, `gpg -k` (short for `gpg --list-keys`), which also sets up my local hidden directories if they're not yet made.
 
-- **generate a key**:`gpg --full-gen-key` > `1y` ('one year before expiry') > `<my_name>` > `<my_email>` > `<key_description>` > `<my_passphrase>` - the terminal output includes the newly generated key's fingerprint.
+- **generate a key**:`gpg --full-gen-key` > `1y` (= "one year before expiry") > `<my_name>` > `<my_email>` > `<key_description>` > `<my_passphrase>` - the terminal output includes the newly generated key's fingerprint.
 - **edit my key**:`gpg --edit-key <id>` and can then `adduid`, `deluid`, `expire`, `trust`
 - **backup my key**:`gpg -ao backup.asc --export-secret-keys --export-options backup <id>` - this also backs up trusts.
 - **import a backup'd key**:If for some reason I'm starting again, `gpg --import backup.asc`. This also brings in my public key.
