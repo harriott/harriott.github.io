@@ -1,5 +1,6 @@
 ---
 # vim: set fdl=2:
+description: "Everyday tools for understanding and writing in different human languages."
 layout: post
 tags: Arch Bash Linux Vim
 title: "human language tools"

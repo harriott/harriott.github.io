@@ -1,5 +1,6 @@
 ---
 # vim: set fdl=2:
+description: "Spend months of your life learning Arch Linux and be happy about it."
 layout: post
 tags: Arch Bash Linux Vim
 title: "Arch Linux"

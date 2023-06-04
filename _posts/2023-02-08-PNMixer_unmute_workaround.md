@@ -1,5 +1,6 @@
 ---
 # vim: set fdl=2:
+description: "Fix PNMixer in awesome wm."
 layout: post
 tags: Dropbox Vim
 title: "PNMixer unmute workaround"

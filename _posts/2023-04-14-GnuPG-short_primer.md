@@ -1,5 +1,6 @@
 ---
 # vim: set fdl=1:
+description: "A very short primer for GNU Privacy Guard."
 layout: post
 tags: Arch GnuPG Linux pass Windows
 title: "GnuPG - short primer"

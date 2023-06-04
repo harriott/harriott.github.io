@@ -1,5 +1,6 @@
 ---
 # vim: set fdl=1:
+description: "Spend months of your life learning Vim, and be pleased about it."
 layout: post
 tags: Bash PowerShell Vim
 title: "vim configurations"

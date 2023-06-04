@@ -1,5 +1,6 @@
 ---
 # vim: set fdl=2:
+description: "My preferred tools for managing the email deluge."
 layout: post
 tags: Arch GnuPG Linux pass Windows
 title: "email tools across platforms"

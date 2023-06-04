@@ -1,5 +1,6 @@
 ---
 # vim: set fdl=2:
+description: "My disk content management with Dropbox, RoboCopy, rsync, and Vim!"
 layout: post
 tags: Dropbox RoboCopy rsync Vim
 title: "managing drive contents"
