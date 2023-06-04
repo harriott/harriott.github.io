@@ -36,4 +36,8 @@ Minimal Mistakes:
 	{% seo %}  <!-- jekyll-seo-tag - seems an unnecessary call -->
 {% endcomment %}
 
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
+
 <!-- end custom head snippets -->
