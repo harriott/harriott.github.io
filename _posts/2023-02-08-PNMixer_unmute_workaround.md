@@ -2,7 +2,7 @@
 # vim: set fdl=2:
 description: "Fix PNMixer in awesome wm."
 layout: post
-tags: Dropbox Vim
+tags: Arch awesomewm Linux
 title: "PNMixer unmute workaround"
 ---
 
