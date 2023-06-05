@@ -2,6 +2,8 @@
 # $Jhm/_config.yml - if changed,  bundle exec jekyll s
 # see  $GHrUse/CP/Jekyll/jekyll-jekyll/lib/site_template/_config.yml
 
+# verbose: true
+
 #=> 0 site description
 
 title: Joseph's IT thoughts
