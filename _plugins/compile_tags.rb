@@ -1,10 +1,9 @@
 
-# from  https://rfong.github.io/rflog/2020/02/28/jekyll-tags/
-# - but I can't get this to act...
+# $CrPl/networking/Jekyll/call_python_plugin_on_post_write.md
+#  (= ttps://stackoverflow.com/questions/76408130/call-python-plugin-on-jekyll-post-write)
 
-# Jekyll post_write hook to run the page generator script
-Jekyll::Hooks.register :posts, :post_write do |post|
-  puts 'post_write  was triggered in _plugins/compile_tags.rb'
-  exec("python _plugins/compile_tags.py")
-end
+# Jekyll::Hooks.register :site, :after_reset do
+  # puts '- infinite loop of tag generation...'
+  # system("python _plugins/compile_tags.py")
+# end
 
