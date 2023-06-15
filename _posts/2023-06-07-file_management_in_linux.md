@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 description: "my preferred file management tools - mostly cli"
-tags: clifm exa fd find fzf PCManFM nnn ranger stat
+tags: clifm exa fd find fzf jump PCManFM nnn ranger stat
 title: "file management in minimalist linux"
 ---
 
@@ -35,9 +35,9 @@ which lets me launch `PCManFM` from a terminal location.
 ## ranger
 Took me a while to teach myself [ranger (file manager)](https://en.wikipedia.org/wiki/Ranger_%28file_manager%29), and it was worth it. It's as fast as `nnn`, and more informative, but clunky for moving things around, so I use it more for looking than for doing. Most of my configuration is in [rc.conf](https://github.com/harriott/OS-ArchBuilds/blob/master/ranger/rc.conf).
 
-## fzf
-[fzf](https://github.com/junegunn/fzf) is another game-changing tool that I rely on. I use it from the command line to quickly home in on something in a directory tree using its implementation of [Approximate string matching](https://en.wikipedia.org/wiki/Approximate_string_matching). More frequently I'm using it via a few keybindings in my [plugins.vim](https://github.com/harriott/vimfiles/blob/master/plugin/plugins.vim) to rapidly fuzzy find in my vast number of text files.
-
+## fzf & jump
+- [fzf](https://github.com/junegunn/fzf) is another game-changing tool that I rely on. I use it from the command line to quickly home in on something in a directory tree using its implementation of [Approximate string matching](https://en.wikipedia.org/wiki/Approximate_string_matching). More frequently I'm using it via a few keybindings in my [plugins.vim](https://github.com/harriott/vimfiles/blob/master/plugin/plugins.vim) to rapidly fuzzy find in my vast number of text files.
+- I [jump](https://github.com/gsamokovarov/jump) all day long to my most used directories.
 
 ## find, fd, stat, chown, chmod, exa...
 - [find (Unix)](https://en.wikipedia.org/wiki/Find_%28Unix%29) is powerful, though useful `find` commands need some crafting, so I keep notes to remind myself of useful examples such as `find . -type l -ls  # list all symlinks in a directory tree`.

@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 description: "my preferred tools minimalist tools on Windows 10"
-tags: fzf
+tags: AutoHotkey Ditto Everything exiftool fzf ImageMagick IrfanView LibreOffice Notepad++ PlatinumSearcher QuickHash PSReadLine tikz Tixati ZLocation
 title: "minimalist Windows tools"
 ---
 
