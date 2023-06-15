@@ -1,11 +1,11 @@
 ---
 # vim: set fdl=2:
 description: "my preferred file management tools - mostly cli"
-tags: clifm exa fd find PCManFM nnn ranger stat
+tags: clifm exa fd find fzf PCManFM nnn ranger stat
 title: "file management in minimalist linux"
 ---
 
-I prefer a lean Linux install, so I use [awesome (window manager)](https://en.wikipedia.org/wiki/Awesome_%28window_manager%29) on my netbook and [Openbox](https://en.wikipedia.org/wiki/Openbox) on my desktop machines. I prefer minimalist tools, my choices of [File manager](https://en.wikipedia.org/wiki/File_manager) included. Here I briefly describe my favourite file management tools.
+I prefer a lean Linux install, so I use [awesome (window manager)](https://en.wikipedia.org/wiki/Awesome_%28window_manager%29) on my netbook and [Openbox](https://en.wikipedia.org/wiki/Openbox) on my desktop machines. I prefer minimalist tools, my choices of [File manager](https://en.wikipedia.org/wiki/File_manager) included. Here I briefly describe my favourite file management tools in order of importance.
 
 ## nnn
 [nnn (file manager)](https://en.wikipedia.org/wiki/Nnn_%28file_manager%29) is my most-used tool, central to all my work on Linux machines. I just find it so whippingly fast to move around directory trees, and to move files and directories around. I configure it a little in my [bashrc-console](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-console).
@@ -35,6 +35,10 @@ which lets me launch `PCManFM` from a terminal location.
 ## ranger
 Took me a while to teach myself [ranger (file manager)](https://en.wikipedia.org/wiki/Ranger_%28file_manager%29), and it was worth it. It's as fast as `nnn`, and more informative, but clunky for moving things around, so I use it more for looking than for doing. Most of my configuration is in [rc.conf](https://github.com/harriott/OS-ArchBuilds/blob/master/ranger/rc.conf).
 
+## fzf
+[fzf](https://github.com/junegunn/fzf) is another game-changing tool that I rely on. I use it from the command line to quickly home in on something in a directory tree using its implementation of [Approximate string matching](https://en.wikipedia.org/wiki/Approximate_string_matching). More frequently I'm using it via a few keybindings in my [plugins.vim](https://github.com/harriott/vimfiles/blob/master/plugin/plugins.vim) to rapidly fuzzy find in my vast number of text files.
+
+
 ## find, fd, stat, chown, chmod, exa...
 - [find (Unix)](https://en.wikipedia.org/wiki/Find_%28Unix%29) is powerful, though useful `find` commands need some crafting, so I keep notes to remind myself of useful examples such as `find . -type l -ls  # list all symlinks in a directory tree`.
 - [fd](https://github.com/sharkdp/fd) is an excellent abstraction of `find`, eg: `fd -tl -HL -X rm  # removes dead links`
@@ -47,3 +51,4 @@ Took me a while to teach myself [ranger (file manager)](https://en.wikipedia.org
 ## CliFM
 - [clifm](https://github.com/leo-arch/clifm) is a neat idea based on just listing files while leaving the terminal mostly functional. I tend to use it when I'm in a highly populate directory.  I bind it to `C` in my [bashrc-console](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-console).
 - My modest contribution to the project: [cfm filetype conflicts with vim's ColdFusion filetype #146](https://github.com/leo-arch/clifm/issues/146).
+
