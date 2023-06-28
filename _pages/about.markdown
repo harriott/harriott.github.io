@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-Self-taught geekology.
+Self-taught geekology: Taking the time to go faster.
 
 I love `Arch Linux`, `Bash`, `Vim`, `LaTeX`, `Python`, `FFmpeg`, `ImageMagick` and in general wrangling stuff from the command-line.
 

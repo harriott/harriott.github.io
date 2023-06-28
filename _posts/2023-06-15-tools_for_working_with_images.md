@@ -5,5 +5,5 @@ tags: exiftool feh GIMP ImageMagick LibreOffice nomacs nsxiv MyPaint Pinta range
 title: "tools for working with images"
 ---
 
-Being cheap, I manage images with a range of free tools, briefly described here.
+Being cheap, I manage images on my various linux machines with a range of free tools, briefly described here.
 

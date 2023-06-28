@@ -32,8 +32,12 @@ pf () {
 ```
 which lets me launch `PCManFM` from a terminal location.
 
+Although I consider `PCManFM` minimalist, it does have a load of dependencies, as can be seen if I
+
+    pactree -u pcmanfm | tr '\n' '~' | sed 's/~/  /g'; echo
+
 ## ranger
-Took me a while to teach myself [ranger (file manager)](https://en.wikipedia.org/wiki/Ranger_%28file_manager%29), and it was worth it. It's as fast as `nnn`, and more informative, but clunky for moving things around, so I use it more for looking than for doing. Most of my configuration is in [rc.conf](https://github.com/harriott/OS-ArchBuilds/blob/master/ranger/rc.conf).
+Took me a while to teach myself [ranger (file manager)](https://en.wikipedia.org/wiki/Ranger_%28file_manager%29), and it was worth it. It's as fast as `nnn`, and more informative, but clunky for moving things around, so I use it more for looking than for doing. Most of my configuration can be seen in [rc.conf](https://github.com/harriott/OS-ArchBuilds/blob/master/ranger/rc.conf).
 
 ## fzf & jump
 - [fzf](https://github.com/junegunn/fzf) is another game-changing tool that I rely on. I use it from the command line to quickly home in on something in a directory tree using its implementation of [Approximate string matching](https://en.wikipedia.org/wiki/Approximate_string_matching). More frequently I'm using it via a few keybindings in my [plugins.vim](https://github.com/harriott/vimfiles/blob/master/plugin/plugins.vim) to rapidly fuzzy find in my vast number of text files.
@@ -44,11 +48,11 @@ Took me a while to teach myself [ranger (file manager)](https://en.wikipedia.org
 - [fd](https://github.com/sharkdp/fd) is an excellent abstraction of `find`, eg: `fd -tl -HL -X rm  # removes dead links`
 - I have a few useful `stat` commands in my [bashrc-generic](https://github.com/harriott/OS-ArchBuilds/blob/master/Bash/bashrc-generic).
 - Bring drive `SDSSDA240G` into my control: `# chown -R jo:jo /run/media/jo/SDSSDA240G`
-- Make my script executable: `# chmod 755 $Openbox/openbox/rc/importScreenshot.sh`
+- Make my script executable: `# chmod 755 $Obc/rc/importScreenshot.sh`
 - [exa (command-line utility)](https://en.wikipedia.org/wiki/Exa_%28command-line_utility%29) is such a handy file lister that I configure some one-letter commands in my [bashrc-generic](https://github.com/harriott/OS-ArchBuilds/blob/master/Bash/bashrc-generic).
 - I've a few more simple commands configured in my [bashrc-generic](https://github.com/harriott/OS-ArchBuilds/blob/master/Bash/bashrc-generic), things that I picked up here and there, such as counting file types.
 
 ## CliFM
-- [clifm](https://github.com/leo-arch/clifm) is a neat idea based on just listing files while leaving the terminal mostly functional. I tend to use it when I'm in a highly populate directory.  I bind it to `C` in my [bashrc-console](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-console).
+- [clifm](https://github.com/leo-arch/clifm) is a neat idea based on just listing files while leaving the terminal mostly functional. I tend to use it when I'm in a highly populated directory.  I bind it to `C` in my [bashrc-console](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-console).
 - My modest contribution to the project: [cfm filetype conflicts with vim's ColdFusion filetype #146](https://github.com/leo-arch/clifm/issues/146).
 
