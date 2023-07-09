@@ -56,7 +56,7 @@ Off-tick Thunderbird's default setting of `Copies & Folders > [ When sending mes
 On my `Arch linux` machines:
 ```bash
 export Drpbx='<location_of_my_Dropbox_directory>'
-export T91="$Drpbx/JH/T91-default-release"  # where I'd like my Thunderbird v91 profile to be
+export T91="$DJH/T91-default-release"  # where I'd like my Thunderbird v91 profile to be
 sed -i "/Name=default-release/,/^$/ { s/IsRelative=1/IsRelative=0/; s:Path=.*:Path=$T91: }" ~/.thunderbird/profiles.ini
 ```
 

@@ -11,8 +11,7 @@ author:
   name: Joseph Harriott
   email: trohib_at_gmail_com
   image: assets/c6o-Skype2Frame40-square.png  # favicon
-description: >-  # (= ignore newlines until next descriptor)
-  self-taught geekology
+description: self-taught geekology  # browser tab:  title | description
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: harriott.github.io
 timezone: Europe/Paris
