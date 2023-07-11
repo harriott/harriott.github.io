@@ -6,12 +6,12 @@ tags: Bash PowerShell Vim
 title: "vim configurations"
 ---
 
-## the rabbit hole
+## way up there on the plateau, it's full of rabbit holes
 `Vim` has a hilariously steep learning curve. My motivation for climbing it was to have a better management of my first book-length attempt at creative writing, but as I realised what `Vim` and it's vast plugin ecosystem could offer, I began to use it as my central application for all of my IT workflow.
 
 Once you've developed basic competence, you're up there on the high plateau, and down the rabbit hole you go, lost for hours in tiny configuration tweaks, driven by shocks of realisation that you can quickly do yet another manipulation 10x faster.
 
-## and it fits like a glove
+## but then it fits like a glove
 `Vim` offers an excellent and terse built-in text-manipulating language, and infinite configurability, so whenever I find I'm doing a certain manipulation regularly, I write in my `vimrc` some commands to do that for me, or, if it's a more complex scenario such as, recently, editing `HTML` files, I look online for the best plugins for my needs. So over the years my configuration has grown, and I modify it frequently - it's all become second nature. When I discover a new plugin, I spend a few hours understanding what it can offer me, and how to implement it, and I gain back that time in faster workflow.
 
 ## manage those plugins
