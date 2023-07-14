@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=1:
 description: "A quick description of how my productivity was boosted by learning vim."
-tags: Dropbox LaTeX markdown ODF Vim
+tags: Dropbox emacs LaTeX markdown ODF Vim
 title: "vim and related tools"
 ---
 
@@ -38,4 +38,12 @@ My `vim` configuration is here: [vimfiles](https://github.com/harriott/vimfiles)
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
+---
+## ...almost forgot... about emacs...
+If you do any serious configuration of  `vim` you'll know that there's also [GNU Emacs](http://en.wikipedia.org/wiki/GNU_Emacs). I was attracted by vim's focus on text, and once I began configuring it there was no need to look elsewhere. Nine years later, I was curious about Emacs' [Org-mode](https://en.wikipedia.org/wiki/Org-mode), so I put in the hours to make my own [init.el](https://github.com/harriott/misc/blob/master/Emacs/init.el), and in doing so discovered that I prefer vim's tighter focus on text and more direct configurability. I got the feeling that `Emacs` focuses more on making you comfortable with a particular task while `vim` focuses on highly configurable text wrangling.
+
+I realised that my own vim-based organisation strategy had become unbeatable.
+
+Still I keep `Emacs` handy for one reason: readability - `Emacs` offers us the super comfort of [Proportional Fonts](https://www.emacswiki.org/emacs/ProportionalFonts). So I added keystrokes in my `vim` configuration to open exactly where I am in a file in `Emacs` (and vice-versa), which is sometimes so so helpful.
 
