@@ -29,7 +29,7 @@ I use [Thunderbird](http://en.wikipedia.org/wiki/Mozilla_Thunderbird) on both `L
 If it's a `Gmail` account, `Thunderbird` will pop-up [Sign in with your Google Account](https://accounts.google.com/InteractiveLogin) in its internal web browser where you'll have to re-enter your password to move on to complete your `2-Step Verification` process. (See [Signing in with 2-Step Verification](https://support.google.com/accounts/topic/7189145).)
 
 ### global settings
-`Thunderbird` has many internal shortcut keys which I can't always remember, so I have my own quick-reference always just a few `Vim` keystrokes away [misc/CrossPlatform/QR.md](https://github.com/harriott/misc/blob/master/CrossPlatform/QR.md#thunderbird). [tbkeys-lite](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/) is a big help.
+`Thunderbird` has many internal shortcut keys which I can't always remember, so I have my own quick-reference always just a few `Vim` keystrokes away [misc/CrossPlatform/QR/QR.md](https://github.com/harriott/misc/blob/master/CrossPlatform/QR/QR.md#thunderbird). [tbkeys-lite](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/) is a big help.
 
 Occasionally I do `File > Compact Folders`.
 
@@ -89,15 +89,11 @@ When you start out you'll be clueless. `mutt` is useless until it's configured. 
 
 With this setup I can sync all of my emails from their servers, move them around, sync them again back to the servers, and do powerful regex searches across all of my email accounts.
 
-### providing account password to mybsync
+### providing account password to mbsync
 ```bash
 pass init '<email_associated_with_my_GnuPG_key>'  # sets up ~/.password-store
 pass insert <location> # (in ~/.password-store/), then type in your password
 ```
-{% highlight bash %}
-pass init '<email_associated_with_my_GnuPG_key>'  # sets up ~/.password-store
-pass insert <location> # (in ~/.password-store/), then type in your password
-{% endhighlight %}
 Then, when `mbysnc` is configured to access your email account's password with `pass`, you'll give your `GnuPG` authentification - I use [pinentry](https://gnupg.org/related_software/pinentry/0) configured to be needed just once per login.
 
 ### sending emails
