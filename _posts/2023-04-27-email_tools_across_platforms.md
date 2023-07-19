@@ -57,7 +57,7 @@ On my `Arch linux` machines:
 ```bash
 export Drpbx='<location_of_my_Dropbox_directory>'
 export T91="$DJH/T91-default-release"  # where I'd like my Thunderbird v91 profile to be
-sed -i "/Name=default-release/,/^$/ { s/IsRelative=1/IsRelative=0/; s:Path=.*:Path=$T91: }" ~/.thunderbird/profiles.ini
+sed -i "/Name=default-release/,/^$/ { s/IsRelative=1/IsRelative=0/; s:Path=.*:Path=$Thb: }" ~/.thunderbird/profiles.ini
 ```
 
 On my `Windows 10 Pro` laptop, I run `Thunderbird v91` once, empty `C:\Users\troin\AppData\Roaming\Thunderbird\Profiles\57isrjsc.default-release`, then edit `C:\Users\troin\AppData\Roaming\Thunderbird\profiles.ini`:

@@ -4,7 +4,7 @@ adapted from  https://rfong.github.io/rflog/2020/02/28/jekyll-tags/  with thanks
 
 generates tag pages for all your post tags for a Jekyll site
 
-originally intended to be invoked automtically after saving a post by  $Jhm/_plugins/compile_tags.rb
+originally intended to be invoked automtically after saving a post by  $JHm/_plugins/compile_tags.rb
 
 now I invoke manually with my command  jt
     ($Bash/bashrc-wm = https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-wm)

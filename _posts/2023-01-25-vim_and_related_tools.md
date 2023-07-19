@@ -1,5 +1,6 @@
 ---
 # vim: set fdl=1:
+# $JHm/_posts/2023-01-25-vim_and_related_tools.md
 description: "A quick description of how my productivity was boosted by learning vim."
 tags: Dropbox emacs LaTeX markdown ODF Vim
 title: "vim and related tools"
