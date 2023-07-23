@@ -15,7 +15,8 @@ I'm writing briefly here about "What You See Is What You Get" suites [WYSIWYG](h
 As I discovered the happy world of `Linux` and prefer it over `MS Windows`, I switched to free programs that use the [OpenDocument](http://en.wikipedia.org/wiki/OpenDocument) format. I began with what is now [Apache OpenOffice](https://en.wikipedia.org/wiki/Apache_OpenOffice), and later moved on to the more frequently maintained [LibreOffice](https://en.wikipedia.org/wiki/LibreOffice).
 
 ### using LibreOffice
-I tweak the toolbars a little, and I do this, `alt+t (= Tools) > AutoCorrect > [ Correct TWo INitial CApitals, Capitalise first letter of every sentence ] > off`, which saves me a load of annoyance.
+- I tweak the toolbars a little, and I do this, `alt+t (= Tools) > AutoCorrect > [ Correct TWo INitial CApitals, Capitalise first letter of every sentence ] > off`, which saves me a load of annoyance.
+- One excellent feature is saving to PDF, which I do all the time for excellent cross-platform readability.
 
 #### maintaining LibreOffice across machines
 In your current working [LibreOffice user profile](https://wiki.documentfoundation.org/UserProfile), which is

@@ -10,7 +10,9 @@ How I manage to browse the big old [World Wide Web](https://en.wikipedia.org/wik
 For getting things done:
 
 - [Firefox](http://en.wikipedia.org/wiki/Mozilla_Firefox) is the man - independent, prone to crashing pages, otherwise solid.
+    - `Ctrl+p > Destination > Save to PDF > Save` formats any full web page into a PDF to keep locally.
 - [Google Chrome](http://en.wikipedia.org/wiki/Google_Chrome) is damned good, maybe better, but it's owned...
+    - I can sync open tabs from my Android phones, which is handy.
 - [Microsoft Edge](https://en.wikipedia.org/wiki/Microsoft_Edge) is good enough for me on my `Windows 10 Pro` laptop.
 
 Noteworthy plugins are:
