@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 description: "my preferred image management tools"
-tags: exiftool feh GIMP ImageMagick LibreOffice nomacs nsxiv MyPaint Pinta ranger scanimage tikz
+tags: exiftool FastStone feh GIMP ImageMagick IrfanView LibreOffice nomacs nsxiv MyPaint Pinta ranger scanimage tikz
 title: "tools for working with images"
 ---
 

@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 description: "tools I use for web browsing"
-tags: Chrome Edge Falkon Firefox KeePassXC
+tags: Chrome Edge Falkon Firefox KeePassXC Opera
 title: "browsing the web"
 ---
 
@@ -24,5 +24,8 @@ Noteworthy plugins are:
 
 I go to the trouble of keeping my tabs sync'd across browsers...
 
-I keep [Falkon](https://en.wikipedia.org/wiki/Falkon) handy for those occasions when I want to fire up an unconfigured browser.
+For those occasions when I want to fire up an unconfigured browser, I use these:
+
+- on `Linux`: [Falkon](https://en.wikipedia.org/wiki/Falkon)
+- on `Windows`: [Opera](http://en.wikipedia.org/wiki/Opera_%28web_browser%29)
 

@@ -17,7 +17,7 @@ Among the many many possibilities, I've homed in, over the years, on these few t
             - [pdfimages](https://en.wikipedia.org/wiki/pdfimages) to pull out any images
             - [pdftotext](https://en.wikipedia.org/wiki/pdftotext), helps in my [$OSAB/ranger/scope.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/ranger/scope.sh)
     - On my `Windows 10 Pro` laptop: [Microsoft Edge](https://en.wikipedia.org/wiki/Microsoft_Edge) does a good job of displaying PDFs, but I more often use [Sumatra PDF](http://en.wikipedia.org/wiki/Sumatra_PDF).
-    - Sometimes I want to convert a PDF to PNG, I wrote myself some functions for that:
+    - Sometimes I want to convert a PDF to PNG, I wrote myself some functions that use [Ghostscript](http://en.wikipedia.org/wiki/Ghostscript) for that:
         - [$Bash/bashrc-ob](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-ob) contains my wrapper around `gs`
         - [$MSWin10\PSProfile.ps1](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1) contains my wrapper around `gswin64c`
     - [pdftk](https://en.wikipedia.org/wiki/PDFtk) although dated, still has useful functionality. I use it to
