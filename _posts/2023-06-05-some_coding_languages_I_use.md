@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 description: "some coding languages I use"
-tags: Bash LaTeX Perl PowerShell Python Ruby Vim
+tags: Bash LaTeX npm Perl PowerShell Python Ruby Vim
 title: "some coding languages I use"
 ---
 
@@ -19,5 +19,6 @@ title: "some coding languages I use"
 - `vimscript`, an integral part of [Vim](https://en.wikipedia.org/wiki/Vim_%28text_editor%29#Vim_script), and not wanted anywhere else in the whole wide world - I'm slightly competent, as evidenced by my ever-evolving [vimfiles](https://github.com/harriott/vimfiles)
 
 ## Now, but I'm incompetent...
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - I keep [npm (software)](http://en.wikipedia.org/wiki/Npm_%28software%29) installed for some handy kit such as [cspell](https://github.com/streetsidesoftware/cspell/tree/main/packages/cspell), [mapscii](https://github.com/rastapasta/mapscii), and [wikit](https://github.com/KorySchneider/wikit)
 - [Ruby](https://en.wikipedia.org/wiki/Ruby_%28programming_language%29) - I barely use, what little I need for [Jekyll](https://en.wikipedia.org/wiki/Jekyll_%28software%29)
 
