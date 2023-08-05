@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 description: "how I configure and use PowerShell on Windows 10"
-tags: fzf less PowerColorLS PowerShell pt wt ZLocation
+tags: fzf Git PowerColorLS PowerShell pt wt ZLocation
 title: "draft: configuring and using PowerShell"
 ---
 
@@ -12,6 +12,8 @@ h  # Get-History
 ```
 
 `PS> ii .` opens [File Explorer](https://en.wikipedia.org/wiki/File_Explorer) on the current directory.
+
+[Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal) is a breath of fresh air, with easy configuration, and configurable keyboard shortcuts. I often get to it from [File Explorer](https://en.wikipedia.org/wiki/File_Explorer) by `alt-d` then typing "wt" in the address bar and hitting `enter`.
 
 ## configuration
 So I take the time to configure [PowerShell](https://en.wikipedia.org/wiki/PowerShell) to my preferences.
@@ -60,12 +62,15 @@ C:\Users\troin\Documents\WindowsPowerShell\Modules
         - `Get-TZData Europe/Paris`
         - `Get-WhoIs 8.8.8.8`
         - `Test-IsElevated`
-PackageManagement
-Posh-Git
-PowerColorLS
-PowerShellGet
-Powershell.Chunks
-Terminal-Icons
-ZLocation
-ps.checkModuleUpdates
+- [PackageManagement](https://www.powershellgallery.com/packages/PackageManagement/) is already there (for `Install-Module ...`), and I updated it with `Install-Module PackageManagement -Force`
+- [Posh-Git](https://github.com/dahlbyk/posh-git) I import and configure in my [ $MSWin10\PSProfile.ps1 ](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1)
+- [PowerColorLS](https://github.com/gardebring/PowerColorLS) I alias as `pc` for handy colourized directory listing.
+- [PowerShellGet](https://www.powershellgallery.com/packages/PowerShellGet/) provides the handy `Get-InstalledModule`
+- [Powershell.Chunks](https://www.powershellgallery.com/packages/Powershell.Chunks/1.0.0) for `Get-Chunk` which breaks a long 1-dimensional array into 2nd dimension chunks.
+- [Terminal-Icons](https://github.com/devblackops/Terminal-Icons/) adds icons to directory listings.
+- [ZLocation](https://www.powershellgallery.com/packages/ZLocation/) - `gal z` shows that it's ready for easy jumping around previous directory visits.
+
+### The Platinum Searcher
+- `C:\Users\troin\AppData\Local\Microsoft\WindowsApps\pt.exe` allows me to `pt search .` recursively finding all occurances of "search" inside files.
+- [the_platinum_searcher](https://github.com/monochromegane/the_platinum_searcher)
 

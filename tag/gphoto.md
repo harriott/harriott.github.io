@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-tag: chown,
+tag: gphoto
 robots: noindex
 ---

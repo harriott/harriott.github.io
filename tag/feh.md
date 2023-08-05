@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-tag: gphoto,
+tag: feh
 robots: noindex
 ---

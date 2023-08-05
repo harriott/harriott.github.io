@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 description: "my preferred file management tools - mostly cli"
-tags: clifm exa fd find fzf jump PCManFM nnn ranger stat
+tags: clifm exa fd find fzf jump PCManFM nnn ranger stat urxvt
 title: "file management in minimalist linux"
 ---
 

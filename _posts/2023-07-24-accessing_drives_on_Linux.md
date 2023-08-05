@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 description: "some of my preferred tools for accessing storage on Linux"
-tags: blkid, chown, fstab, gphoto, lsblk, mount, NTFS, PCManFM, udisks
+tags: blkid chown fstab gphoto lsblk mount NTFS PCManFM udisks
 title: "accessing drives on Linux"
 ---
 

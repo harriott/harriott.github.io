@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-tag: fstab,
+tag: GIMP
 robots: noindex
 ---
