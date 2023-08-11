@@ -2,7 +2,7 @@
 # vim: set fdl=2:
 description: "my preferred image management tools"
 tags: ExifTool FastStone feh GIMP ImageMagick IrfanView LibreOffice nomacs nsxiv MyPaint Pinta ranger scanimage tikz urxvt
-title: "draft: tools for working with images"
+title: "tools for working with images"
 ---
 
 Being cheap, I manage images on my various machines with a range of free tools, briefly described here.

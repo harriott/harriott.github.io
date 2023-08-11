@@ -2,7 +2,7 @@
 # vim: set fdl=2:
 description: "How I scrape text conversations from mysms and Facebook Messenger."
 layout: post
-tags: Perl Windows Vim
+tags: Messenger mysms Perl Windows Vim
 
 title: "grabbing mysms and Messenger conversations with Perl"
 ---

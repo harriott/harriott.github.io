@@ -2,7 +2,7 @@
 # vim: set fdl=2:
 description: "how I configure and use PowerShell on Windows 10"
 tags: fzf Git PowerColorLS PowerShell pt wt ZLocation
-title: "draft: configuring and using PowerShell"
+title: "configuring and using PowerShell"
 ---
 
 Command history:
