@@ -2,7 +2,7 @@
 # vim: set fdl=2:
 description: "How I scrape text conversations from mysms and Facebook Messenger."
 layout: post
-tags: Messenger mysms Perl Windows Vim
+tags: Messenger mysms Perl Windows Vim WhatsApp
 
 title: "grabbing mysms and Messenger conversations with Perl"
 ---
@@ -40,7 +40,10 @@ It's all there, but not easily readable, and in reverse order. So I decided to w
 ## Facebook Messenger
 I then created a similair functionality, [MessengerMd.pl](https://github.com/harriott/misc/blob/master/PerlTools/MessengerMd.pl) for scraping off [Messenger](https://en.wikipedia.org/wiki/Messenger_%28software%29) texts into a nicely folded up `markdown` file.
 
-## my Vim configurations
+## my helpful Vim configurations for markdown
 - [markdown.vim](https://github.com/harriott/vimfiles/blob/master/ftplugin/markdown.vim) - for folding by `markdown` header marks
 - [md.vim](https://github.com/harriott/vimfiles/blob/master/ftplugin/md.vim) - for `\<f7>`
+
+## WhatsApp
+Surprisingly straightforward, when you know how - see my [whatsapp.vim](https://github.com/harriott/vimfiles/blob/master/syntax/whatsapp.vim).
 
