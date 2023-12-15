@@ -1,5 +1,6 @@
 ---
 # vim: set fdl=1:
+# $JHm/_posts/2023-02-05-vim_configurations.md
 description: "Spend months of your life learning Vim, and be pleased about it."
 layout: post
 tags: Bash PowerShell Vim

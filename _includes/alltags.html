@@ -12,7 +12,7 @@
   {% endfor %}
 {% endcapture %}
 
-{% assign sortedtemptags = temptags | split:' ' | sort %}
+{% assign sortedtemptags = temptags | split:' ' | sort_natural %}
 {% for temptag in sortedtemptags %}
   <a href="/tag/{{ temptag }}"><code class="highlighter-rouge"><nobr>{{ temptag }}</nobr></code></a>
 {% endfor %}

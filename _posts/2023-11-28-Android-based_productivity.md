@@ -1,6 +1,8 @@
 ---
+# vim: set fdl=1:
+# $JHm/_posts/2023-11-28-Android-based_productivity.md
 description: "super-power Android tools"
-tags: Amazon Android CalenGoo Gboard Doctolib Dropsync email F-Droid Gmail JBL K9 KeePassXC leboncoin OpenWeatherMap Poweramp Termux Whatsapp
+tags: Amazon Android CalenGoo Gboard Doctolib Dropsync email F-Droid Gmail JBL K9 KeePassXC leboncoin OpenWeatherMap Poweramp Termux WhatsApp
 title: "Android-based productivity"
 ---
 

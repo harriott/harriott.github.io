@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-tag: Whatsapp
+tag: gnuplot
 robots: noindex
 ---
