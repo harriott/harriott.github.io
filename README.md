@@ -1,3 +1,3 @@
 
-GitHub Pages automatically builds my site http://harriott.github.io from this repository.
+GitHub Pages automatically builds my site https://harriott.github.io from this repository.
 

@@ -1,6 +1,6 @@
 ---
 # vim: set fdl=1:
-# $JHm/_posts/2023-12-15-stacked_bar_charts_of_my_work_hours.md.md
+# $JHm/_posts/2023-12-15-stacked_bar_charts_of_my_work_hours.md
 description: "markdown, Perl, and gnuplot for time tracking"
 tags: gnuplot markdown Perl Vim
 title: "stacked bar charts of my work hours"

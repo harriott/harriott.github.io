@@ -45,5 +45,5 @@ I then created a similair functionality, [MessengerMd.pl](https://github.com/har
 - [md.vim](https://github.com/harriott/vimfiles/blob/master/ftplugin/md.vim) - for `\<f7>`
 
 ## WhatsApp
-Surprisingly straightforward, when you know how - see my [whatsapp.vim](https://github.com/harriott/vimfiles/blob/master/syntax/whatsapp.vim).
+Surprisingly straightforward, when you know how - see my [$vimfiles/syntax/whatsapp.vim](https://github.com/harriott/vimfiles/blob/master/syntax/whatsapp.vim).
 
