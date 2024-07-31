@@ -7,7 +7,7 @@ generates tag pages for all your post tags for a Jekyll site
 originally intended to be invoked automtically after saving a post by  $JHm/_plugins/compile_tags.rb
 
 now I invoke manually with my command  jt
-    ($Bash/bashrc-wm = https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-wm)
+    ($AjB/bashrc-wm = https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-wm)
 
 works well, could be replaced by untangled's more compact Ruby code
 '''

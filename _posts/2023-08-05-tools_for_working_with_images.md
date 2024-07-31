@@ -15,9 +15,9 @@ Being cheap, I manage images on my various machines with a range of free tools, 
     - [feh (image viewer)](https://en.wikipedia.org/wiki/Feh_%28image_viewer%29)
         - `feh -F -D 4` full screen slide-show, changing every 4 seconds.
     - nomacs has excellent [FEATURES](https://nomacs.org/features/), keyboard controlled, with easy resolution change or cropping of an image, so it's my default viewer.
-    - [nsxiv](https://nsxiv.codeberg.page/) has some handy features, in particular recursively thumbnailing images, so I wrap it in my [$Bash/bashrc-wm](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-wm)
+    - [nsxiv](https://nsxiv.codeberg.page/) has some handy features, in particular recursively thumbnailing images, so I wrap it in my [$AjB/bashrc-wm](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-wm)
     - My [$OSAB/ranger/rc.conf](https://github.com/harriott/OS-ArchBuilds/blob/master/ranger/rc.conf) has a mapping to open the current directory in a new instance of [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) such that I'm out of `tmux`, where I usually am, and I can use `ranger` to rapidly view images, alongside other filetypes, via `w3mimgdisplay`.
-    - I wrap [scanimage.1](http://www.sane-project.org/man/scanimage.1.html) in my [$Bash/bashrc-wm](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-wm) for easy scanning from the command line.
+    - I wrap [scanimage.1](http://www.sane-project.org/man/scanimage.1.html) in my [$AjB/bashrc-wm](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/Bash/bashrc-wm) for easy scanning from the command line.
 - [MyPaint](http://en.wikipedia.org/wiki/MyPaint) has some handy simple painting tools.
 - [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ) can make some stunning graphics, if you're up for learning `LaTeX`, which is in itself a challenge...
 - [Pinta (software)](http://en.wikipedia.org/wiki/Pinta_%28software%29) also has some handy features, in particular it shows the pixel position of your mouse pointer within the image.

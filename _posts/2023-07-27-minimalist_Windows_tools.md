@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=2:
 description: "my preferred minimalist tools on Windows 10"
-tags: AutoHotkey BRU CapsLock Ditto Explorer Everything Notepad++ PowerToys QuickHash Sysinternals Tixati
+tags: AutoHotkey BRU CapsLock Ditto Explorer Everything Notepad++ PowerToys QuickHash Sysinternals Tixati Windows
 title: "minimalist Windows tools"
 ---
 
