@@ -60,17 +60,20 @@ export T91="$DJH/T91-default-release"  # where I'd like my Thunderbird v91 profi
 sed -i "/Name=default-release/,/^$/ { s/IsRelative=1/IsRelative=0/; s:Path=.*:Path=$Thb: }" ~/.thunderbird/profiles.ini
 ```
 
-On my `Windows 10 Pro` laptop, I run `Thunderbird v91` once, empty `C:\Users\troin\AppData\Roaming\Thunderbird\Profiles\57isrjsc.default-release`, then edit `C:\Users\troin\AppData\Roaming\Thunderbird\profiles.ini`:
+On my `Windows 10 Pro` laptop, I run `Thunderbird` once, empty `~\AppData\Roaming\Thunderbird\Profiles\xxxxxxxx.default-release`, then edit `~\AppData\Roaming\Thunderbird\profiles.ini`:
 ```dosini
 [Profile0] section:
   IsRelative=0
-  Path=C:\Users\Joseph\Dropbox\JH\T91-default-release
+  Path=D:\Dropbox\JH\Thb-dr
 ```
 
 There's one catch with this - I shouldn't open `Thunderbird` simultaneously on different machines. To help me enforce this I made a few small scripts:
 
-- [OS-ArchBuilds/jo/wm/TS/locks.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/wm/TS/locks.sh)
-- [OS-MSWin10/T430i73520M/T91/TaskScheduler/clearParentLock.ps1](https://github.com/harriott/OS-MSWin10/blob/master/T430i73520M/T91/TaskScheduler/clearParentLock.ps1)
+- [$MSwin10\Thb\runSafely.ps1](https://github.com/harriott/OS-MSWin10/blob/master/Thb/runSafely.ps1)
+- [$MSwin10\Thb\clearWin10ProLock.ps1](https://github.com/harriott/OS-MSWin10/blob/master/Thb/clearWin10ProLock.ps1)
+- [$OSAB/jo/wm/TS/thunderbird_safely.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/wm/TS/thunderbird_safely.sh)
+- [$ABjo/wm/TS/thunderbird_safely.desktop](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/wm/TS/thunderbird_safely.desktop)
+- [$ABjo/wm/TS/locks.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/wm/TS/locks.sh)
 
 ## mutt with notmuch
 I went down this rabbit hole, which pleased my inner geek, but it ain't for everyone. The result though is amazing: I get command-line control of my emails on my `linux` machines.

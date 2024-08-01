@@ -1,7 +1,7 @@
 ---
 # vim: set fdl=4:
 description: "my take on wysiwyg document editing tools"
-tags: ODF Vim
+tags: LibreOffice ODF Vim
 title: "wysiwyg document editing packages"
 ---
 

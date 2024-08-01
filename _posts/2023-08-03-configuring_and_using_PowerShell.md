@@ -30,7 +30,7 @@ pwsh -v  # returns the more modern  PowerShell  version
 
 You're better off working with the more up-to-date and cross-platform `PowerShell`.
 
-I keep one [ $MSWin10\PSProfile.ps1 ](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1) for both of these, and symlink it to the default locations - see my [ $MSwin10\symlinks.ps1 ](https://github.com/harriott/OS-MSWin10/blob/master/symlinks.ps1).
+I keep one [$MSWin10\PSProfile.ps1 ](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1) for both of these, and symlink it to the default locations - see my [ $MSwin10\symlinks.ps1](https://github.com/harriott/OS-MSWin10/blob/master/symlinks.ps1).
 
 ### modules
 I also found these confusing, there being some already installed, and various locations for them, as evidenced by `$Env:PSModulePath -split ';'`, but this is where my installs end up:
@@ -54,16 +54,16 @@ C:\Users\troin\Documents\WindowsPowerShell\Modules
         - Bars in PowerShell: `New-ANSIBar -Range (232..255)` & `New-RedGreenGradient`
         - Directories investigations:
             - `dw` (= Get-DirectoryInfo) a directories count
-            - `Get-FolderSizeInfo` I wrap in my [ $MSWin10\PSProfile.ps1 ](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1)
+            - `Get-FolderSizeInfo` I wrap in my [$MSWin10\PSProfile.ps1](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1)
             - `pstree [n]` (= `Show-Tree`)
         - `Get-MyVariable` - variables list
-        - `Get-Process` I wrap in my [ $MSWin10\PSProfile.ps1 ](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1) for a handy pop-up of running processes
+        - `Get-Process` I wrap in my [$MSWin10\PSProfile.ps1](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1) for a handy pop-up of running processes
         - `Get-PSSessionInfo`
         - `Get-TZData Europe/Paris`
         - `Get-WhoIs 8.8.8.8`
         - `Test-IsElevated`
 - [PackageManagement](https://www.powershellgallery.com/packages/PackageManagement/) is already there (for `Install-Module ...`), and I updated it with `Install-Module PackageManagement -Force`
-- [Posh-Git](https://github.com/dahlbyk/posh-git) I import and configure in my [ $MSWin10\PSProfile.ps1 ](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1)
+- [Posh-Git](https://github.com/dahlbyk/posh-git) I import and configure in my [$MSWin10\PSProfile.ps1](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1)
 - [PowerColorLS](https://github.com/gardebring/PowerColorLS) I alias as `pc` for handy colourized directory listing.
 - [PowerShellGet](https://www.powershellgallery.com/packages/PowerShellGet/) provides the handy `Get-InstalledModule`
 - [Powershell.Chunks](https://www.powershellgallery.com/packages/Powershell.Chunks/1.0.0) for `Get-Chunk` which breaks a long 1-dimensional array into 2nd dimension chunks.

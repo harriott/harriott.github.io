@@ -6,7 +6,7 @@ tags: Dropbox emacs LaTeX markdown ODF Vim
 title: "vim and related tools"
 ---
 
-For better or worse, learning `vim` totally transformed my use of IT and allowed me to geek-out to my heart's desire. `vim` has become central to my daily life. I now keep all my personal and work notes in some kind of text file,
+For better or worse, learning [Vim (text editor)](http://en.wikipedia.org/wiki/Vim_%28text_editor%29) totally transformed my use of IT and allowed me to geek-out to my heart's desire. `vim` has become central to my daily life. I now keep all my personal and work notes in some kind of text file,
 
 - [markdown](http://en.wikipedia.org/wiki/Markdown) for worldly stuff
     - here's a good intro: [Getting Started](https://www.markdownguide.org/getting-started/)
