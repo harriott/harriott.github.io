@@ -2,7 +2,7 @@
 # vim: set fdl=1:
 # $JHm/_posts/2024-08-01-winget_and_more_minimalist_Windows_tools.md
 description: "winget, the Windows Package Manager, and other speedy tools"
-tags: AltSnap BgInfo C++ Chrome Everything eza FD fzf Git GnuPG ImageMagick IrfanView KeePassXC less LibreOffice LF LSD MiKTeX Notepad++ PowerShell Python Ruby Sumatra Thunderbird Vim Windows winget wt Zig
+tags: AltSnap BgInfo C++ Chrome Everything eza fd fzf Git GnuPG ImageMagick IrfanView KeePassXC less LibreOffice LF LSD MiKTeX Notepad++ PowerShell Python Ruby Sumatra Thunderbird Vim Windows winget wt Zig
 title: "winget, and more minimalist Windows tools"
 ---
 

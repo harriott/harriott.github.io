@@ -76,7 +76,7 @@ There's one catch with this - I shouldn't open `Thunderbird` simultaneously on d
 - [$ABjo/wm/TS/locks.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/wm/TS/locks.sh)
 
 ## mutt with notmuch
-I went down this rabbit hole, which pleased my inner geek, but it ain't for everyone. The result though is amazing: I get command-line control of my emails on my `linux` machines.
+I went down this rabbit hole, which pleased my inner geek, but it ain't for everyone. The result though is amazing: I get command-line control of my emails on my `linux` machines. My configurations are here [$clMail/README.md](https://github.com/harriott/OS-ArchBuilds/tree/master/jo/clm).
 
 [Mutt (email client)](http://en.wikipedia.org/wiki/Mutt_%28email_client%29)
 > The Mutt slogan is "All mail clients suck. This one just sucks less."
@@ -102,5 +102,5 @@ Then, when `mbysnc` is configured to access your email account's password with `
 ### sending emails
 I can send text-only emails for my non-Gmail accounts - see [About msmtp](https://marlam.de/msmtp/).
 
-I did transcribe some handy code that allowed met to send Gmails ([OS-ArchBuilds/jo/clm/msmtprc/oauth2tool.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/clm/msmtprc/oauth2tool.sh)), but then Google decided to stop OAuth out-of-band flow, which effectively excluded `msmtp` from sending Gmails...
+I did transcribe some handy code that allowed me to send Gmails ([OS-ArchBuilds/jo/clm/msmtprc/oauth2tool.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/clm/msmtprc/oauth2tool.sh)), but then Google decided to stop OAuth out-of-band flow, which effectively excluded `msmtp` from sending Gmails...
 

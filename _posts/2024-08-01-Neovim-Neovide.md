@@ -2,7 +2,7 @@
 # vim: set fdl=1:
 # $JHm/_posts/2024-08-01-Neovim-Neovide.md
 description: "the advantages of switching to Neovim, and the pleasure of Neovide"
-tags: BgInfo eza FD GnuPG less LF LSD Windows winget
+tags: Neovide Neovim Vim
 title: "switching to Neovim and Neovide"
 ---
 
