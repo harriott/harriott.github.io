@@ -2,7 +2,7 @@
 # vim: set fdl=1:
 # $JHm/_posts/2023-01-25-vim_and_related_tools.md
 description: "A quick description of how my productivity was boosted by learning vim."
-tags: Dropbox emacs LaTeX markdown ODF Vim
+tags: DokuWiki Dropbox emacs LaTeX markdown ODF Vim
 title: "vim and related tools"
 ---
 
@@ -19,7 +19,7 @@ I regularly convert all of my `markdown` notes to `PDF`, and they get sync'd up 
 I'm obsessive (for better or worse) about things that interest me, so I note things every day. When I used to use `ODF`s for that (see [wysiwyg document editing packages]({% post_url 2023-06-05-wysiwyg_document_editing_packages %})), I'd find myself needing to install some kind of heavy duty desktop search app that could constantly scan inside my many documents. This was a cumbersome business and `vim` freed me from that.
 
 ## millions of words
-To illustrate, without going into the configurations details: on one of my `Arch linux` machines, in my `TextNotes` directory, (using sharkdp's [fd](https://github.com/sharkdp/fd),) `$ fd -tf -e md | wc -l` shows I've 510 `markdown` files, then `$ wc -w **/*.md` reports they contain a total of 4,038,098 words - all stuff I've accumulated over the last two decades. That's a lot of words, but easy to search when you've learned how to `grep`. I can for example (using BurntSushi's [ripgrep](https://github.com/BurntSushi/ripgrep), `$ rg -tmd shark` to get a colourful output in my terminal like this sample:
+To illustrate, without going into the configurations details: on one of my `Arch linux` machines, in my `TextNotes` directory, (using sharkdp's [fd](https://github.com/sharkdp/fd),) `$ fd -tf -e md | wc -l` shows I've 510 `markdown` files, then `$ fd -tf -e md -x cat | wc -w` reports they contain a total of 5,938,724 words - all stuff I've accumulated over the last two decades. That's a lot of words, but easy to search when you've learned how to `grep`. I can for example (using BurntSushi's [ripgrep](https://github.com/BurntSushi/ripgrep), `$ rg -tmd shark` to get a colourful output in my terminal like this sample:
 
 ![ripgrep for shark](/assets/2023-01-25-vim_and_related_tools/1-shark.jpg)
 
@@ -41,6 +41,10 @@ My `vim` configuration is here: [vimfiles](https://github.com/harriott/vimfiles)
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
 ---
+
+## glow
+[charmbracelet/glow](https://github.com/charmbracelet/glow) is another little game-changing cross-platform CLI tool, great for (recursively) checking the contents of any `markdown` files in the directory. So easy to use!
+
 ## ...almost forgot... about emacs...
 If you do any serious configuration of  `vim` you'll know that there's also [GNU Emacs](http://en.wikipedia.org/wiki/GNU_Emacs). I was attracted by vim's focus on text, and once I began configuring it there was no need to look elsewhere. Nine years later, I was curious about Emacs' [Org-mode](https://en.wikipedia.org/wiki/Org-mode), so I put in the hours to make my own [init.el](https://github.com/harriott/misc/blob/master/Emacs/init.el), and in doing so discovered that I prefer vim's tighter focus on text and more direct configurability. I got the feeling that `Emacs` focuses more on making you comfortable with a particular task while `vim` focuses on highly configurable text wrangling.
 

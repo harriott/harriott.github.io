@@ -1,4 +1,4 @@
-
+#
 # $JHm/_config.yml - if changed,  bundle exec jekyll s
 # see  $DCGRs/CP/Jekyll/jekyll-jekyll/lib/site_template/_config.yml
 
@@ -42,6 +42,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
   - jekyll-seo-tag
+
+show_drafts: true
 
 #=> 2 theme
 logo: /assets/c6o-Skype2Frame40-square.png

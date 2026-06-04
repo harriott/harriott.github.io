@@ -69,9 +69,9 @@ On my `Windows 10 Pro` laptop, I run `Thunderbird` once, empty `~\AppData\Roamin
 
 There's one catch with this - I shouldn't open `Thunderbird` simultaneously on different machines. To help me enforce this I made a few small scripts:
 
-- [$MSwin10\Thb\runSafely.ps1](https://github.com/harriott/OS-MSWin10/blob/master/Thb/runSafely.ps1)
-- [$MSwin10\Thb\clearWin10ProLock.ps1](https://github.com/harriott/OS-MSWin10/blob/master/Thb/clearWin10ProLock.ps1)
-- [$OSAB/jo/wm/TS/thunderbird_safely.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/wm/TS/thunderbird_safely.sh)
+- [$MSWin10\Thb\runSafely.ps1](https://github.com/harriott/OS-MSWin10/blob/master/Thb/runSafely.ps1)
+- [$MSWin10\Thb\clearWin10ProLock.ps1](https://github.com/harriott/OS-MSWin10/blob/master/Thb/clearWin10ProLock.ps1)
+- [$OSAB/nodes-jo/wm/TS/thunderbird_safely.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/wm/TS/thunderbird_safely.sh)
 - [$ABjo/wm/TS/thunderbird_safely.desktop](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/wm/TS/thunderbird_safely.desktop)
 - [$ABjo/wm/TS/locks.sh](https://github.com/harriott/OS-ArchBuilds/blob/master/jo/wm/TS/locks.sh)
 

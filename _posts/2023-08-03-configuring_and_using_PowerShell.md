@@ -30,7 +30,7 @@ pwsh -v  # returns the more modern  PowerShell  version
 
 You're better off working with the more up-to-date and cross-platform `PowerShell`.
 
-I keep one [$MSWin10\PSProfile.ps1 ](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1) for both of these, and symlink it to the default locations - see my [ $MSwin10\symlinks.ps1](https://github.com/harriott/OS-MSWin10/blob/master/symlinks.ps1).
+I keep one [$MSWin10\PSProfile.ps1 ](https://github.com/harriott/OS-MSWin10/blob/master/PSProfile.ps1) for both of these, and symlink it to the default locations - see my [ $MSWin10\symlinks.ps1](https://github.com/harriott/OS-MSWin10/blob/master/symlinks.ps1).
 
 ### modules
 I also found these confusing, there being some already installed, and various locations for them, as evidenced by `$Env:PSModulePath -split ';'`, but this is where my installs end up:
